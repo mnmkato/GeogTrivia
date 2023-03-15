@@ -6,22 +6,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color:beige ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100vh;
     overflow: hidden;
+    height: 100vh;
 }
+.main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container{
     padding: 1rem;
-    height: fit-content;
-    width: fit-content;
     background-color: bisque;
-    
     color: darkred;
-    display: flex;
-    flex-direction: column;
 }
 .container h1, .container p{
     text-align: center;
@@ -60,14 +58,20 @@ body{
     
 }
 .topBar,.bottomBar{
+    position: fixed;
     color: aliceblue;
     width: 100vw;
     text-align: center;
     background-color: darkred;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+.bottomBar{
+    bottom: 0;
+}
+.topBar{
+    top: 0;
 }
 meter{
     margin-left: 1rem;

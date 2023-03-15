@@ -8,42 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="topBar">
-        <h1>Geography Trivia</h1>
-    </div>
-    <div class="container"> 
-        <div class="questionDiv">
-            <p></p>
+        <div class="topBar">
+            <h1>Geography Trivia</h1>
         </div>
-        <form action="#" method="post">
-            <div class="answers">
-                <div class="a1">
-                    <input type="radio" name="q1224" value="a1" id="q1"class="radio a1">
-                    <label for="q1" class="a1"></label>
-                </div>
-                <div class="a2">
-                    <input type="radio" name="q1224" value="a2" id="q2"class="radio a2">
-                    <label for="q2" class="a2"></label>
-                </div>
-                <div class="a3">
-                    <input type="radio" name="q1224" value="a3" id="q3"class="radio a3">
-                    <label for="q3" class="a3"></label>
-                </div>
-                <div class="a4">
-                    <input type="radio" name="q1224" value="a4" id="q4" class="radio a4">
-                    <label for="q4" class="a4"></label>
-                </div>
+        <div class="main">
+        <div class="container"> 
+            <div class="questionDiv">
+                <p></p>
             </div>
-            <div class="btnDiv">
-                <button id="btn" type="button">next</button>
-            </div>
-        </form>
+            <form action="#" method="post">
+                <div class="answers">
+                    <div class="a1">
+                        <input type="radio" name="q1224" value="a1" id="q1"class="radio a1">
+                        <label for="q1" class="a1"></label>
+                    </div>
+                    <div class="a2">
+                        <input type="radio" name="q1224" value="a2" id="q2"class="radio a2">
+                        <label for="q2" class="a2"></label>
+                    </div>
+                    <div class="a3">
+                        <input type="radio" name="q1224" value="a3" id="q3"class="radio a3">
+                        <label for="q3" class="a3"></label>
+                    </div>
+                    <div class="a4">
+                        <input type="radio" name="q1224" value="a4" id="q4" class="radio a4">
+                        <label for="q4" class="a4"></label>
+                    </div>
+                </div>
+                <div class="btnDiv">
+                    <button id="btn" type="button">next</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <div class="bottomBar">
-        <p>Your score</p>
-        <meter id="meter"min="0" max="100" value="50"></meter>
-        <p id="meterText">50%</p>
-    </div>
+        <div class="bottomBar">
+            <p>Your score</p>
+            <meter id="meter"min="0" max="100" value="50"></meter>
+            <p id="meterText">50%</p>
+        </div> 
     <script src="script.js"></script>
 </body>
 </html>
